@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Events />
       <Speaker />
-      <SignUpForm />
+      {/* <SignUpForm /> */}
     </main>
   );
 }

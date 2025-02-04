@@ -13,10 +13,10 @@ const Speaker: React.FC = () => {
         <p className="text-lg md:text-xl font-light leading-relaxed">
           Interested in speaking at an event?
         </p>
-        <p className="text-lg md:text-xl font-light leading-relaxed">
-          Contact us here:{" "}
-          <span className="font-bold">startupweek@techatnyu.org</span>
-        </p>
+        <button className="bg-gray-300 text-black font-bold px-6 py-3 rounded-md hover:bg-gray-400 transition"
+        onClick={() => window.location.href = "https://nyu.qualtrics.com/jfe/form/SV_5hCEVrEdppMhuIK"}>
+          Sign Up to Speak
+        </button>
       </div>
     </div>
   );

@@ -8,7 +8,8 @@ const SignUpForm: React.FC = () => {
         placeholder="Enter your email"
         className="flex-grow border border-gray-600 text-white placeholder-gray-500 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-gray-400"
       />
-      <button className="bg-gray-300 text-black font-bold px-6 py-3 rounded-md hover:bg-gray-400 transition">
+      <button className="bg-gray-300 text-black font-bold px-6 py-3 rounded-md hover:bg-gray-400 transition"
+        onClick={() => window.location.href = "https://nyu.qualtrics.com/jfe/form/SV_5hCEVrEdppMhuIK"}>
         Sign Up
       </button>
     </div>

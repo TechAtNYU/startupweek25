@@ -2,6 +2,7 @@
 import React from "react";
 import BgTextComp from "./bgtext";
 import SlidingBg from "./SlidingBg";
+import ScrollDownButton from "./ScrollDownButton";
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
                 fontWeight: ".1",
               }}
             >
-              NYU’s Premier Entrepreneurship Event!
+              Innovate. Build. Scale. Powered by NYU
             </p>
             <p className="flex-grow basis-[35%] md:text-lg text-sm text-right justify-right">
               March 1 to 7, 2025
@@ -36,9 +37,8 @@ const Hero = () => {
             onClick={() => window.location.href = "https://nyu.qualtrics.com/jfe/form/SV_5hCEVrEdppMhuIK"}>
               Sign Up to Speak
             </button>
-            <p className="text-gray-200 underline cursor-pointer">
-              Learn More blah blah blah
-            </p>
+            <ScrollDownButton/>
+            
           </div>
         </div>
       </header>

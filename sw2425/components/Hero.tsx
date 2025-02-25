@@ -34,8 +34,8 @@ const Hero = () => {
 
           <div className="mt-8 text-center flex justify-center items-center space-x-10">
             <button className="font-bold bg-gray-800 text-white px-6 py-3 rounded-md hover:bg-gray-700 transition"
-            onClick={() => window.location.href = "https://nyu.qualtrics.com/jfe/form/SV_5hCEVrEdppMhuIK"}>
-              Sign Up to Speak
+            onClick={() => window.location.href = "https://engage.nyu.edu/organization/tech-at-nyu-all-university/events"}>
+              Register Here
             </button>
             <ScrollDownButton/>
             

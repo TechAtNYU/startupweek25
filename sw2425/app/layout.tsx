@@ -4,6 +4,7 @@ import ReactLenis from "lenis/react";
 
 export const metadata: Metadata = {
   title: "Startup Week by Tech@NYU",
+  
   description: "NYU's premier student led entrepreneurship event",
 };
 
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/eventTypes/WhirlwindLogos.svg" type="image/png   " />
       </head>
       <ReactLenis root>
         <body>{children}</body>

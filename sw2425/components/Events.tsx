@@ -13,7 +13,7 @@ const Events = () => {
       card={{
         src: "/eventTypes/DoubleSemi.svg",
         title: "Annual Buildathon",
-        category: "Build something in 36 hours",
+        category: "Sat-Sun 03/01 and 03/02",
         content: <EventContent
                 text="Attendees will gain exclusive insights into the journeys, challenges, and opportunities of leading innovators in startups, venture capital, and cutting-edge technology. The keynote panel provides practical advice, inspiration, and an opportunity to connect with industry leaders shaping the future of tech and entrepreneurship."
                 link="https://engage.nyu.edu/event/11062870"/>,
@@ -25,7 +25,7 @@ const Events = () => {
       card={{
         src: "/eventPics/terri.jpg",
         title: "Keynote Event",
-        category: "Watch industry leaders speak",
+        category: "Monday 03/03 5:00-8:00 PM",
         content: <EventContent 
                   text="Attendees will gain exclusive insights into the journeys, challenges, and opportunities of leading innovators in startups, venture capital, and cutting-edge technology. The keynote panel provides practical advice, inspiration, and an opportunity to connect with industry leaders shaping the future of tech and entrepreneurship." 
                   link="https://engage.nyu.edu/event/11066495"/>,
@@ -37,7 +37,7 @@ const Events = () => {
       card={{
         src: "/eventPics/banquet.JPG",
         title: "End of Week Social",
-        category: "Network with industry professionals",
+        category: "Friday 03/07 5:30-8:00 PM",
         content: <EventContent
                   text="The Networking Mixer Social provides a relaxed and engaging environment for students, professionals, and industry leaders to connect, exchange ideas, and build meaningful relationships. Attendees will have the opportunity to expand their networks, explore collaborative opportunities, and gain insights into career paths and industry trends while enjoying light refreshments and interactive activities."
                   link="https://engage.nyu.edu/event/11077107"/>,
@@ -49,7 +49,7 @@ const Events = () => {
       card={{
         src: "/eventPics/notion.png",
         title: "Notion Workshop",
-        category: "Maximize your productivity with Notion",
+        category: "Tuesday 03/04 5:30-7:00 PM",
         content: <EventContent
                   text="This workshop will teach participants how to use Notion to streamline their personal and professional workflows, organize projects, and improve productivity. The session will provide hands-on guidance tailored for students, professionals, and team collaboration."
                   link="https://engage.nyu.edu/event/11077107"
@@ -62,7 +62,7 @@ const Events = () => {
       card={{
         src: "/eventPics/panel.jpg",
         title: "Future of Tech Panel",
-        category: "Hear what today's pros see in tomorrow",
+        category: "Thursday 03/06 5:30-6:30 PM",
         content: <EventContent
                 text="Future of Tech Panel brings together visionary leaders and innovators to discuss emerging trends, groundbreaking technologies, and their real-world applications. Attendees will gain exclusive insights into how cutting-edge tech is shaping industries and experience live demonstrations of innovative products. This event offers a unique opportunity to explore the intersection of creativity, technology, and future possibilities."
                 link="https://engage.nyu.edu/event/11066505"/>,
@@ -74,7 +74,7 @@ const Events = () => {
       card={{
         src: "/eventPics/keynote.png",
         title: "Z-Fellows Q&A",
-        category: "Learn what it takes to be an entrepreneur",
+        category: "Wednesday 03/05 3:30-4:30 PM",
         content: <EventContent
                 text="The Z-Fellows Office Tour and Program Orientation offers participants an exclusive glimpse into the student startup accelerator program. Attendees will learn about the program&#39;s mission, resources, and success stories while touring the facilities and connecting with peers, mentors, and program leaders. This event sets the stage for collaboration, innovation, and entrepreneurial growth, inspiring students to take their ideas to the next level."
                 link="https://engage.nyu.edu/organization/tech-at-nyu-all-university/events"
@@ -86,8 +86,8 @@ const Events = () => {
       index={6}
       card={{
         src: "/eventPics/panel3.jpg",
-        title: "Demo Day",
-        category: "Pitch your creation to actual VC's",
+        title: "Practice Your Pitch",
+        category: "Friday 03/07 3:00-4:30 PM",
         content: <EventContent
                   text="Hackathon Demo Day showcases the innovative solutions and creative projects developed by hackathon participants. Attendees will witness live demonstrations of cutting-edge ideas and technologies, network with talented developers and industry professionals, and celebrate the culmination of an exciting, collaborative journey. This event provides an opportunity for participants to present their work, gain valuable feedback, and connect with potential collaborators, mentors, and employers. "
                   link="https://engage.nyu.edu/event/11099512"/>,
@@ -99,7 +99,7 @@ const Events = () => {
       card={{
         src: "/eventPics/panel2.jpg",
         title: "Big Tech v. Startup Panel",
-        category: "Learn about industry giants and startups",
+        category: "Wednesday 03/05 5:30-6:30 PM",
         content: <EventContent
                   text="Attendees will gain exclusive insights into the differences between big tech companies and startups, hearing from professionals about their personal experience, all the ups and downs, and challenges they encounter throughout their way. It will not only be a valuable information session useful for students deciding their path, but also a great opportunity to connect with these industry leaders. "
                   link="https://engage.nyu.edu/event/11066493"
